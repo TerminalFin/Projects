@@ -1,0 +1,46 @@
+{
+  "data": {
+    "id": "sample-id",
+    "type": "disability_ratings",
+    "attributes": {
+      "combined_disability_rating": 90,
+      "combined_effective_date": "2023-02-01",
+      "legal_effective_date": "2023-01-30",
+      "individual_ratings": [
+        {
+          "decision": "Service Connected",
+          "effective_date": "2020-04-30",
+          "rating_end_date": null,
+          "rating_percentage": 30,
+          "diagnostic_type_code": "6847",
+          "diagnostic_type_name": "Sleep Apnea Syndromes",
+          "diagnostic_text": "Sleep Apnea",
+          "disability_rating_id": "sample-001",
+          "static_ind": true
+        },
+        {
+          "decision": "Service Connected",
+          "effective_date": "2020-04-30",
+          "rating_end_date": null,
+          "rating_percentage": 10,
+          "diagnostic_type_code": "8520",
+          "diagnostic_type_name": "Paralysis of the sciatic nerve",
+          "diagnostic_text": "Left restless leg syndrome",
+          "disability_rating_id": "sample-002",
+          "static_ind": true
+        },
+        {
+          "decision": "Not Service Connected",
+          "effective_date": null,
+          "rating_end_date": null,
+          "rating_percentage": null,
+          "diagnostic_type_code": "7517",
+          "diagnostic_type_name": "Injury of bladder",
+          "diagnostic_text": "Urinary frequency",
+          "disability_rating_id": "sample-003",
+          "static_ind": false
+        }
+      ]
+    }
+  }
+}
